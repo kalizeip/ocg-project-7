@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Векторная схема учебных цифровых проектов</title>
+  <desc id="desc">Центральный модуль соединён линиями с четырьмя кругами.</desc>
+  <defs>
+    <linearGradient id="g" x1="110" y1="85" x2="406" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FF4F"/>
+      <stop offset="1" stop-color="#66D978"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="260" r="206" stroke="#D8FF4F" stroke-opacity=".22"/>
+  <circle cx="260" cy="260" r="151" stroke="#D8FF4F" stroke-opacity=".38" stroke-dasharray="5 10"/>
+  <path d="M260 143V84M361 201l63-35M358 321l61 39M260 377v59M162 322l-65 38M159 201l-62-35" stroke="#D8FF4F" stroke-width="2" stroke-linecap="round"/>
+  <g fill="#132619" stroke="url(#g)" stroke-width="3">
+    <circle cx="260" cy="69" r="16"/><circle cx="440" cy="157" r="16"/><circle cx="437" cy="372" r="16"/><circle cx="260" cy="452" r="16"/><circle cx="81" cy="372" r="16"/><circle cx="80" cy="157" r="16"/>
+  </g>
+  <rect x="171" y="171" width="178" height="178" rx="32" fill="url(#g)"/>
+  <path d="M214 226c0-12.15 9.85-22 22-22h48c12.15 0 22 9.85 22 22v68c0 12.15-9.85 22-22 22h-48c-12.15 0-22-9.85-22-22v-68Z" fill="#132619"/>
+  <path d="M240 241h40M240 260h40M240 279h23" stroke="#D8FF4F" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Учебный сайт-портфолио с проектами по веб-разработке, API, Docker и работе с данными.">
+    <title>Учебные цифровые проекты</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержанию</a>
+
+    <header class="header">
+      <div class="shell header__inner">
+        <a class="brand" href="#home" aria-label="На главную">
+          <img src="assets/mark.svg" width="42" height="42" alt="">
+          <span>study<span class="brand__dot">.</span>portfolio</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+
+        <nav class="nav" id="site-nav" aria-label="Основная навигация">
+          <a href="#home">Главная</a>
+          <a href="#about">Обо мне</a>
+          <a href="#projects">Проекты</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero section" id="home">
+        <div class="shell hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Портфолио учебных работ · 2026</p>
+            <h1>Учебные<br><span>цифровые проекты</span></h1>
+            <p class="hero__lead">
+              Студент прикладной информатики. Собираю небольшие цифровые проекты,
+              в которых важны понятная структура, аккуратный интерфейс и проверяемый результат.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--accent" href="#projects">Смотреть работы <span aria-hidden="true">↘</span></a>
+              <a class="text-link" href="#contacts">Написать сообщение</a>
+            </div>
+          </div>
+
+          <div class="hero__visual" aria-label="Схема учебных цифровых проектов">
+            <img src="assets/mark.svg" alt="Стилизованная векторная схема из точек, линий и модулей" width="520" height="520">
+            <div class="hero__badge hero__badge--one"><span>01</span> Web</div>
+            <div class="hero__badge hero__badge--two"><span>02</span> API</div>
+            <div class="hero__badge hero__badge--three"><span>03</span> Data</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="shell about__grid">
+          <div>
+            <p class="eyebrow">Обо мне</p>
+            <h2>Учусь делать цифровые инструменты, которыми удобно пользоваться.</h2>
+          </div>
+          <div class="about__body">
+            <p>
+              Мне интересны веб-разработка, работа с данными и сервисы, которые общаются через API.
+              В учебных проектах я не ограничиваюсь результатом в виде кода: проверяю сценарии,
+              адаптирую интерфейс для разных экранов и фиксирую итог в отчёте.
+            </p>
+            <p>
+              Здесь собраны несколько работ: запуск контейнера Docker, тестирование API в Postman
+              и обработка данных в электронной таблице. Скриншоты сделаны в процессе выполнения
+              этих работ и не являются стоковыми изображениями.
+            </p>
+          </div>
+        </div>
+
+        <div class="shell skills" aria-label="Направления работы">
+          <article><span>01</span><h3>Веб-интерфейсы</h3><p>HTML, CSS, адаптивная вёрстка и навигация.</p></article>
+          <article><span>02</span><h3>API</h3><p>GET-запросы, JSON-ответы и позитивные сценарии.</p></article>
+          <article><span>03</span><h3>Контейнеры</h3><p>Docker и запуск локальных сервисов.</p></article>
+          <article><span>04</span><h3>Данные</h3><p>Таблицы, формулы и наглядные диаграммы.</p></article>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="shell section-heading">
+          <p class="eyebrow">Выбранные работы</p>
+          <h2>Небольшие проекты — с понятной задачей и реальным результатом.</h2>
+        </div>
+
+        <div class="shell project-grid">
+          <article class="project-card project-card--wide">
+            <div class="project-card__image">
+              <img src="assets/postman-work.webp" alt="Интерфейс Postman с успешным GET-запросом к API" loading="lazy">
+            </div>
+            <div class="project-card__content">
+              <p class="project-card__number">01 / API</p>
+              <h3>Тестирование API в Postman</h3>
+              <p>Семь запросов: позитивные сценарии, обработка ошибки и ответы в формате JSON.</p>
+              <span class="tag">GET · JSON · 200/404</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image">
+              <img src="assets/docker-work.webp" alt="Открытая стартовая страница контейнера Docker" loading="lazy">
+            </div>
+            <div class="project-card__content">
+              <p class="project-card__number">02 / Docker</p>
+              <h3>Первый веб-контейнер</h3>
+              <p>Запуск контейнера и проверка публикации локального порта.</p>
+              <span class="tag">Docker · localhost</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__image project-card__image--light">
+              <img src="assets/subjects-chart.webp" alt="Столбчатая диаграмма среднего балла по предметам" loading="lazy">
+            </div>
+            <div class="project-card__content">
+              <p class="project-card__number">03 / Данные</p>
+              <h3>Таблицы и диаграммы</h3>
+              <p>Расчёты по формулам и визуализация данных в электронной таблице.</p>
+              <span class="tag">Calc · диаграммы</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contacts">
+        <div class="shell contact__grid">
+          <div class="contact__intro">
+            <p class="eyebrow">Контакты</p>
+            <h2>Есть идея для учебного проекта?</h2>
+            <p>Форма ниже проверяет корректность электронной почты до отправки. Контактные ссылки добавлены как обязательные интерактивные элементы учебного макета.</p>
+            <div class="contact-links">
+              <a href="tel:+70000000000">+7 000 000-00-00</a>
+              <a href="mailto:student@example.com">student@example.com</a>
+            </div>
+            <div class="site-qr">
+              <img src="assets/site-qr.svg" width="88" height="88" alt="QR-код со ссылкой на сайт-портфолио">
+              <div>
+                <p>Открыть сайт по QR-коду</p>
+                <a href="https://kalizeip.github.io/ocg-project-7/">kalizeip.github.io/ocg-project-7</a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <label>
+              <span>Имя</span>
+              <input name="name" type="text" autocomplete="name" required placeholder="Как к вам обращаться">
+            </label>
+            <label>
+              <span>Email</span>
+              <input name="email" type="email" autocomplete="email" required placeholder="name@example.ru">
+            </label>
+            <label>
+              <span>Сообщение</span>
+              <textarea name="message" rows="5" required placeholder="Коротко опишите вопрос"></textarea>
+            </label>
+            <button class="button button--dark" type="submit">Проверить форму <span aria-hidden="true">→</span></button>
+            <p class="form-status" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer__inner">
+        <p>© 2026 Учебный сайт-портфолио.</p>
+        <div class="footer__links">
+          <a href="https://t.me/" target="_blank" rel="noreferrer">Telegram <span aria-hidden="true">↗</span></a>
+          <a href="https://vk.com/" target="_blank" rel="noreferrer">VK <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
