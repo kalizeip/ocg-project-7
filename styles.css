@@ -99,6 +99,20 @@ h1 span { color: var(--accent); }
 .project-card__content p:not(.project-card__number) { max-width: 39ch; margin-bottom: 1rem; color: var(--muted); }
 .tag { display: inline-block; padding: .35rem .6rem; border-radius: 999px; background: #e9ecd9; color: #37521d; font-size: .78rem; font-weight: 750; }
 
+.story { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; margin-top: 4rem; }
+.story__item { padding: 1.75rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); }
+.story__item h3, .achievements h3, .skill-list h3, .section-heading--sub h3 { margin: 0 0 .9rem; font-size: clamp(1.3rem, 2vw, 1.75rem); line-height: 1.15; letter-spacing: -.04em; }
+.story__item p:not(.eyebrow), .achievements p:not(.eyebrow) { margin-bottom: 0; color: #364035; }
+
+.skill-list { display: grid; grid-template-columns: 1fr 1fr; gap: 1.4rem; margin-bottom: 4rem; }
+.skill-list > div { padding: 1.75rem; border-radius: var(--radius); background: var(--card); }
+.skill-list ul { margin: 0; padding-left: 1.2rem; color: #364035; }
+.skill-list li + li { margin-top: .4rem; }
+.section-heading--sub { margin-bottom: 1.6rem; }
+.section-heading--sub h3 { margin: 0; }
+.achievements { margin-top: 4rem; padding: 1.75rem; border-left: 4px solid var(--forest); border-radius: var(--radius); background: var(--card); }
+.achievements p:not(.eyebrow) { max-width: 75ch; }
+
 .contact { background: var(--accent); }
 .contact__grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 7rem; }
 .contact__intro h2 { max-width: 11ch; }
@@ -132,6 +146,7 @@ h1 span { color: var(--accent); }
   .skills { grid-template-columns: repeat(2, 1fr); margin-top: 3rem; }
   .section-heading { gap: .5rem; margin-bottom: 2rem; }
   .contact__grid { gap: 3rem; }
+  .story, .skill-list { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {

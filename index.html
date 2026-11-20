@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Учебный сайт-портфолио с проектами по веб-разработке, API, Docker и работе с данными.">
-    <title>Учебные цифровые проекты</title>
+    <meta name="description" content="Сайт-визитка студента программы «Прикладной искусственный интеллект и наука о данных»: выбор программы, планы, навыки и учебные работы.">
+    <title>Сайт-визитка: ИИ и наука о данных</title>
     <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -15,7 +15,7 @@
       <div class="shell header__inner">
         <a class="brand" href="#home" aria-label="На главную">
           <img src="assets/mark.svg" width="42" height="42" alt="">
-          <span>study<span class="brand__dot">.</span>portfolio</span>
+          <span>ai<span class="brand__dot">.</span>data</span>
         </a>
 
         <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -25,8 +25,8 @@
 
         <nav class="nav" id="site-nav" aria-label="Основная навигация">
           <a href="#home">Главная</a>
-          <a href="#about">Обо мне</a>
-          <a href="#projects">Проекты</a>
+          <a href="#program">Программа</a>
+          <a href="#skills">Навыки</a>
           <a href="#contacts">Контакты</a>
         </nav>
       </div>
@@ -36,59 +36,114 @@
       <section class="hero section" id="home">
         <div class="shell hero__grid">
           <div class="hero__copy">
-            <p class="eyebrow">Портфолио учебных работ · 2026</p>
-            <h1>Учебные<br><span>цифровые проекты</span></h1>
+            <p class="eyebrow">Сайт-визитка · 2026</p>
+            <h1>Данные<br><span>и ИИ</span></h1>
             <p class="hero__lead">
-              Студент прикладной информатики. Собираю небольшие цифровые проекты,
-              в которых важны понятная структура, аккуратный интерфейс и проверяемый результат.
+              Я учусь на первом курсе по программе «Прикладной искусственный интеллект
+              и наука о данных». Здесь коротко о том, как я понимаю свою программу,
+              почему она стала моим выбором, что я уже умею и куда хочу двигаться дальше.
             </p>
             <div class="hero__actions">
-              <a class="button button--accent" href="#projects">Смотреть работы <span aria-hidden="true">↘</span></a>
-              <a class="text-link" href="#contacts">Написать сообщение</a>
+              <a class="button button--accent" href="#program">О программе <span aria-hidden="true">↘</span></a>
+              <a class="text-link" href="#skills">Навыки и работы</a>
             </div>
           </div>
 
-          <div class="hero__visual" aria-label="Схема учебных цифровых проектов">
-            <img src="assets/mark.svg" alt="Стилизованная векторная схема из точек, линий и модулей" width="520" height="520">
-            <div class="hero__badge hero__badge--one"><span>01</span> Web</div>
-            <div class="hero__badge hero__badge--two"><span>02</span> API</div>
-            <div class="hero__badge hero__badge--three"><span>03</span> Data</div>
+          <div class="hero__visual" aria-label="Схема: данные, модели, приложения">
+            <img src="assets/mark.svg" alt="Векторная схема из точек, линий и модулей" width="520" height="520">
+            <div class="hero__badge hero__badge--one"><span>01</span> Data</div>
+            <div class="hero__badge hero__badge--two"><span>02</span> ML</div>
+            <div class="hero__badge hero__badge--three"><span>03</span> Apps</div>
           </div>
         </div>
       </section>
 
-      <section class="about section" id="about">
+      <section class="about section" id="program">
         <div class="shell about__grid">
           <div>
-            <p class="eyebrow">Обо мне</p>
-            <h2>Учусь делать цифровые инструменты, которыми удобно пользоваться.</h2>
+            <p class="eyebrow">Как я понимаю программу</p>
+            <h2>Не просто «нейросети», а путь от данных к полезному решению.</h2>
           </div>
           <div class="about__body">
             <p>
-              Мне интересны веб-разработка, работа с данными и сервисы, которые общаются через API.
-              В учебных проектах я не ограничиваюсь результатом в виде кода: проверяю сценарии,
-              адаптирую интерфейс для разных экранов и фиксирую итог в отчёте.
+              Для меня цель программы — научить специалиста, который понимает всю цепочку:
+              где взять данные, как их очистить и проанализировать, какую модель выбрать
+              и как встроить результат в работающую систему. Поэтому в ней рядом стоят
+              математика, программирование, базы данных и прикладные задачи.
             </p>
             <p>
-              Здесь собраны несколько работ: запуск контейнера Docker, тестирование API в Postman
-              и обработка данных в электронной таблице. Скриншоты сделаны в процессе выполнения
-              этих работ и не являются стоковыми изображениями.
+              Программа открывает несколько дорог: анализ данных для бизнеса, машинное
+              обучение, разработку сервисов с элементами ИИ. Самым перспективным мне
+              кажется именно прикладная часть — когда модель решает конкретную задачу,
+              а не остаётся экспериментом в блокноте.
             </p>
           </div>
         </div>
 
-        <div class="shell skills" aria-label="Направления работы">
-          <article><span>01</span><h3>Веб-интерфейсы</h3><p>HTML, CSS, адаптивная вёрстка и навигация.</p></article>
-          <article><span>02</span><h3>API</h3><p>GET-запросы, JSON-ответы и позитивные сценарии.</p></article>
-          <article><span>03</span><h3>Контейнеры</h3><p>Docker и запуск локальных сервисов.</p></article>
-          <article><span>04</span><h3>Данные</h3><p>Таблицы, формулы и наглядные диаграммы.</p></article>
+        <div class="shell skills" aria-label="Что даёт программа">
+          <article><span>01</span><h3>Математика</h3><p>Статистика, линейная алгебра и вероятности как основа моделей.</p></article>
+          <article><span>02</span><h3>Данные</h3><p>Сбор, очистка, хранение и визуализация данных.</p></article>
+          <article><span>03</span><h3>Модели</h3><p>Машинное обучение и оценка качества моделей.</p></article>
+          <article><span>04</span><h3>Применение</h3><p>Сервисы, API и интеграция моделей в продукты.</p></article>
+        </div>
+
+        <div class="shell story">
+          <article class="story__item">
+            <p class="eyebrow">Почему именно эта программа</p>
+            <h3>Интерес к тому, как из данных получаются решения</h3>
+            <p>
+              Мне всегда было интересно, как сервисы подбирают рекомендации, распознают
+              текст и речь или прогнозируют спрос. За этим стоит работа с данными
+              и программирование, и мне хотелось разобраться в этом изнутри, а не только
+              пользоваться готовыми инструментами. Ещё один довод — перспективы: специалисты
+              по данным нужны почти в любой отрасли, от медицины до транспорта.
+            </p>
+          </article>
+          <article class="story__item">
+            <p class="eyebrow">Профессиональные планы</p>
+            <h3>Аналитик данных, затем инженер машинного обучения</h3>
+            <p>
+              В ближайшие годы хочу уверенно освоить Python, SQL и основные библиотеки для
+              анализа данных, сделать несколько собственных проектов и попасть на стажировку.
+              В перспективе вижу себя инженером машинного обучения: хочу решать задачи,
+              где модель помогает людям принимать решения быстрее и точнее, — например,
+              прогнозирование или автоматическая обработка документов.
+            </p>
+          </article>
         </div>
       </section>
 
-      <section class="projects section" id="projects">
+      <section class="projects section" id="skills">
         <div class="shell section-heading">
-          <p class="eyebrow">Выбранные работы</p>
-          <h2>Небольшие проекты — с понятной задачей и реальным результатом.</h2>
+          <p class="eyebrow">Интересы и навыки в IT</p>
+          <h2>Начинаю с основ и проверяю всё на практике.</h2>
+        </div>
+
+        <div class="shell skill-list">
+          <div>
+            <h3>Чем уже пользуюсь</h3>
+            <ul>
+              <li>HTML, CSS и немного JavaScript — на них свёрстан этот сайт;</li>
+              <li>Postman — отправка запросов к API и разбор ответов в JSON;</li>
+              <li>Docker — запуск веб-сервиса в контейнере;</li>
+              <li>электронные таблицы — формулы и диаграммы;</li>
+              <li>Git и GitHub — хранение проекта и публикация сайта.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Чему хочу научиться</h3>
+            <ul>
+              <li>Python и библиотеки pandas, NumPy, scikit-learn;</li>
+              <li>SQL и проектирование баз данных;</li>
+              <li>машинное обучение и компьютерное зрение;</li>
+              <li>развёртывание моделей в виде веб-сервисов.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="shell section-heading section-heading--sub">
+          <p class="eyebrow">Учебные работы</p>
+          <h3>Проекты, выполненные в первом семестре</h3>
         </div>
 
         <div class="shell project-grid">
@@ -128,20 +183,31 @@
             </div>
           </article>
         </div>
+
+        <div class="shell achievements">
+          <p class="eyebrow">Достижения и мероприятия</p>
+          <h3>Только начинаю свой путь в IT</h3>
+          <p>
+            Публикаций, побед в олимпиадах и хакатонах у меня пока нет. Главный результат
+            на сегодня — учебные проекты, показанные выше. Дальше хочу
+            постепенно разбираться в анализе данных и, возможно, со временем
+            попробовать себя в профильных мероприятиях.
+          </p>
+        </div>
       </section>
 
       <section class="contact section" id="contacts">
         <div class="shell contact__grid">
           <div class="contact__intro">
             <p class="eyebrow">Контакты</p>
-            <h2>Есть идея для учебного проекта?</h2>
-            <p>Форма ниже проверяет корректность электронной почты до отправки. Контактные ссылки добавлены как обязательные интерактивные элементы учебного макета.</p>
+            <h2>Хотите обсудить проект или задать вопрос?</h2>
+            <p>Напишите через форму или по контактам ниже. Перед отправкой форма проверяет, что в адресе электронной почты есть символ @.</p>
             <div class="contact-links">
               <a href="tel:+70000000000">+7 000 000-00-00</a>
               <a href="mailto:student@example.com">student@example.com</a>
             </div>
             <div class="site-qr">
-              <img src="assets/site-qr.svg" width="88" height="88" alt="QR-код со ссылкой на сайт-портфолио">
+              <img src="assets/site-qr.svg" width="88" height="88" alt="QR-код со ссылкой на сайт">
               <div>
                 <p>Открыть сайт по QR-коду</p>
                 <a href="https://kalizeip.github.io/ocg-project-7/">kalizeip.github.io/ocg-project-7</a>
@@ -162,7 +228,7 @@
               <span>Сообщение</span>
               <textarea name="message" rows="5" required placeholder="Коротко опишите вопрос"></textarea>
             </label>
-            <button class="button button--dark" type="submit">Проверить форму <span aria-hidden="true">→</span></button>
+            <button class="button button--dark" type="submit">Отправить <span aria-hidden="true">→</span></button>
             <p class="form-status" id="form-status" aria-live="polite"></p>
           </form>
         </div>
@@ -171,7 +237,7 @@
 
     <footer class="footer">
       <div class="shell footer__inner">
-        <p>© 2026 Учебный сайт-портфолио.</p>
+        <p>© 2026 Сайт-визитка студента программы «Прикладной ИИ и наука о данных».</p>
         <div class="footer__links">
           <a href="https://t.me/" target="_blank" rel="noreferrer">Telegram <span aria-hidden="true">↗</span></a>
           <a href="https://vk.com/" target="_blank" rel="noreferrer">VK <span aria-hidden="true">↗</span></a>
